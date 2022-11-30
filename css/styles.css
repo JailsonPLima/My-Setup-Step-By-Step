@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.l-container {
+  width: min(100% - 2rem, 31.25rem);
+  margin-inline: auto;
+  padding: 3rem 0 4rem 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.l-container__title,
+.l-container__subtitle {
+  font-size: 1.25rem;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.l-container__subtitle {
+  font-size: 1.125rem;
+}
+
+.l-container__link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.l-container__link:hover {
+  text-decoration: underline;
+}
